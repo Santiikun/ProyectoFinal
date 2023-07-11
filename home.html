@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<div id="app"></div>
+
+	  <script src="home.js"></script>
+	  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+	  <script>
+	   const SilaboUleam = {
+         data(){
+			return{
+				nombre: 'Santiago'
+			}
+		 }
+	   }
+  Vue.createApp(SilaboUleam).mount('#app')
+
+
+	  </script>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+<div id="app"></div>
+
+<script>
+  const { createApp, ref } = Vue
+
+  createApp({
+    setup() {
+      const message = ref('Hello vue!')
+      return {
+        message
+      }
+    }
+  }).mount('#app')
+</script>
+
+	<meta charset="UTF-8">
+	<title>Página de Inicio Universitario</title>
+	<link rel="stylesheet" href="home.css">
+
+</head>
+<body>
+    <div class="box-uleam">
+        <img src="logo_ULEAM.png" alt="foto de persona">
+  </div>
+
+	<header>
+		<div class="bar-menu">
+			<nav>
+			
+				<a href="Aplicaciones.html">Aplicaciones Web 1</a>
+				<a href="Gestion.html">Gestión de Base de Datos</a>
+				<a href="Programacion.html">Programación Orientada a Objetos</a>
+				
+			</nav>
+
+
+			<body>
+				<nav>
+
+
+					<nav class="profile-content">
+						<ul>
+			
+			
+						  <a href="home.html">Inicio</a>
+						  <a href="Perfil.html">Perfil</a>
+						  <a href="inicio.html">Cerrar sesión</a>
+						</ul>
+					  </nav>
+		</div>
+
+	</header>
+    
+	<main>
+		<div class="caja">
+			<h1>Bienvenido(a) a la página prinicipal para silabos universitarios ULEAM</h1>
+			<b>Seleccionar una materia para que pueda visualizar el silabo.</b>
+		</div>
+
+		<div class="container">
+			<img class="image" src="Silabo.png" alt="Imagen 1">
+			<img class="image" src="silabo3.jpeg" alt="Imagen 2">
+			<img class="image" src="silabox.png" alt="Imagen 3">
+		</div>
+
+		<div class="course-info">
+			<h2>Mision</h2>
+			<p>Desarrollo de un Sistema de Silabos Universitario para una Institución Educativa, permitirá a la institución educativa brindar una formación académica de excelencia, adaptada a los desafíos y demandas de la sociedad y el mundo laboral, y contribuir así al desarrollo integral de sus estudiantes y al avance de la educación superior.</p>
+
+		  </div>
+
+		  <div class="course-infx">
+			<h2>Visión</h2>
+			<p>Facilitar un enfoque educativo integral y de calidad a través de un Sistema de Silabos Universitario eficiente y actualizado, que promueva el aprendizaje significativo, el desarrollo de habilidades y competencias, y la formación de profesionales altamente capacitados.</p>
+
+		  </div>
+	</main>
+
+    <footer>
+        <p2>Universidad ULEAM © 2023</p2>
+      </footer>
+
+</body>
+</html>

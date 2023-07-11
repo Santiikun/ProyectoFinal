@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333333;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #333333;
+    margin-top: 20px;
+  }
+  
+  .course-info,
+  .course-outline,
+  .course-requirements,
+  .course-methodology,
+  .course-hours,
+  .course-teacher {
+    margin-top: 40px;
+	background-color: #eee;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .course-info p,
+  .course-outline li,
+  .course-requirements li,
+  .course-methodology p,
+  .course-hours th,
+  .course-hours td,
+  .course-teacher p {
+    color: #666666;
+  }
+  
+  .course-info h2,
+  .course-outline h2,
+  .course-requirements h2,
+  .course-methodology h2,
+  .course-hours h2,
+  .course-teacher h2 {
+    color: #333333;
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .course-outline table,
+  .course-methodology table,
+  .course-hours table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .course-outline th,
+  .course-outline td,
+  .course-methodology th,
+  .course-methodology td,
+  .course-hours th,
+  .course-hours td {
+    border: 1px solid #cccccc;
+    padding: 8px;
+  }
+  
+  .course-outline th,
+  .course-methodology th,
+  .course-hours th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .course-outline ul,
+  .course-requirements ul,
+  .course-methodology ul,
+  .course-hours ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  .course-teacher p {
+    margin-bottom: 0;
+  }
+  
+  .container::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  
+
+
+  header {
+    background-color: rgb(168, 228, 72);
+   color: #fff;
+}
+
+.profile-content {
+   position: absolute;
+   right: 0;
+}
+nav ul {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   display: flex;
+}
+
+nav {
+   margin-right: 20px;
+}
+
+nav a {
+   color: #000000;
+   text-decoration: none;
+   font-size: 18px;
+   padding: 10px;
+}
+
+nav a:hover {
+   background-color: #555;
+}
+
+main {
+   padding: 50px;
+   text-align: center;
+}
+
+#contenido {
+   max-width: 800px;
+   margin: 0 auto;
+}
+
+h1 {
+   font-size: 32px;
+   margin-bottom: 20px;
+}
+
+c {
+   font-size: 12px;
+}
+
+b {
+   font-size: 20px;
+}
+footer {
+   background-color: rgb(168, 228, 72);
+   color: #000000;  
+   text-align: center;
+   padding: 1rem;
+ }
+ body {
+   font-family: sans-serif;
+   font-style: italic;
+   background-color: rgb(238, 226, 205);
+ }
+
+ .box-uleam img{
+   width: 350px;
+   height: 80px;
+   margin: 1em 1em;
+ }
+
+
+ .download-syllabus {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.download-syllabus a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.download-syllabus a:hover {
+  background-color: #0056b3;
+}
